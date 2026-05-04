@@ -5,7 +5,7 @@
     --accent: #ff69b4;
     --max-width: 900px;
 }
-/* GLOBAL */
+
 body {
     margin: 0;
    background-color: var(--bg);
