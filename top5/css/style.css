@@ -67,6 +67,7 @@ nav a:hover {
 h1, h2 {
     text-align: center;
     color: #222;
+    font-family: "Mooli", sans-serif; /* or Bungee if you prefer */
 }
 
 .bungee-regular {
