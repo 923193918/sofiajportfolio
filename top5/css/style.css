@@ -39,7 +39,7 @@ header h1 {
     gap: 15px;
 }
 
-.dog-gif {
+.header-gif {
     width: 25px;
     height: auto;
     border-radius: 10px;
@@ -64,14 +64,8 @@ nav a:hover {
     color: var(--accent);
 }
 
-h1, h2 {
-    text-align: center;
-    color: #222;
-    font-family: "Mooli", sans-serif; /* or Bungee if you prefer */
-}
-
 .bungee-regular {
-    font-family: 'Bungee', cursive;
+    font-family: 'Bungee Regular', cursive;
 }
 
 .mooli-regular {
