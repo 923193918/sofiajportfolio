@@ -171,9 +171,19 @@ footer {
 }
 
 
-nav {
-    flex: 1; /* balances the right side */
+.dog-gif {
+    flex: 1;
     display: flex;
-    justify-content: flex-end; /* keeps nav on the right */
+    justify-content: flex-start;
 }
 
+header h1 {
+    flex: 1;
+    text-align: center;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
