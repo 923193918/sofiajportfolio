@@ -166,12 +166,17 @@ footer {
 }
 
 .horizontal-item h3 a {
-    color: var(--link);
-    text-decoration: none;
-    transition: 0.3s;
+    text-decoration: none;      /* removes underline */
+    color: inherit;             /* keeps the same color as the h3 */
+}
+
+.horizontal-item h3 a:hover {
+    text-decoration: none;      /* still no underline on hover */
+    color: inherit;             /* no color change */
 }
 
 .horizontal-item h3 a:hover {
     color: var(--accent);
     text-shadow: 0 0 8px var(--accent);
 }
+
