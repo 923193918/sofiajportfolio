@@ -39,7 +39,7 @@ header h1 {
     gap: 15px;
 }
 
-.dog-gif {
+.header-gif {
     width: 25px;
     height: auto;
     border-radius: 10px;
@@ -64,14 +64,8 @@ nav a:hover {
     color: var(--accent);
 }
 
-h1, h2 {
-    text-align: center;
-    color: #222;
-}
-
-/* default font for pages that use Bungee */
 .bungee-regular {
-    font-family: 'Bungee', cursive;
+    font-family: 'Bungee Regular', cursive;
 }
 
 .mooli-regular {
@@ -80,12 +74,56 @@ h1, h2 {
   font-style: normal;
 }
 
-.gallery-box {
-    width: 100%;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 2rem;
 }
+
+.img-box {
+    width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #ffe0f0;
+    border: 3px solid #ff4f9a;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.img-box img {
+    width: 100%;
+    border-radius: 15px;
+    diplay: block;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.img-box img:hover {
+    box-shadow: 0 0 25px #ff69b4;
+    transform: scale(1.03);
+}
+
+.text-box {
+    width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #ffe0f0;
+    border: 3px solid #ff4f9a;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    line-height: 1.6;
+    font-family: "Mooli", sans-serif;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 40px auto;
+    width: 90%;
+    max-width: 1300px;
+}
+
 
 footer {
     background-color: #ff4f9a;
@@ -108,56 +146,13 @@ footer {
     font-size: 1.2rem;
 }
 
-.footer-link:hover {
+.fotter-link:hover {
     color: var(--accent);
 }
 
-.horizontal-box {
-    width: 95%;
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 30px;
-    background: #ffe0f0;
-    border: 3px solid var(--link);
-    border-radius: 25px;
-}
-
-.horizontal-row {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: nowrap;
-}
-
-.horizontal-item {
-    width: 18%; /* 5 items fit in one row */
-    text-align: center;
-}
-
-.horizontal-item img {
-    width: 100%;
-    max-width: 150px;
-    height: auto;
-    border-radius: 15px;
-    margin-bottom: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.horizontal-item img:hover {
-    transform: scale(1.03);
-    box-shadow: 0 0 20px var(--accent);
-}
-
-.horizontal-item h3 {
-    font-family: "Bungee", sans-serif;
-    color: var(--link);
-    font-size: 1rem;
-    margin: 5px 0;
-}
-
-.horizontal-item p {
-    font-family: "Mooli", sans-serif;
-    font-size: 0.9rem;
-    line-height: 1.4;
-    margin: 0;
+@media (max-width: 900px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
 }
