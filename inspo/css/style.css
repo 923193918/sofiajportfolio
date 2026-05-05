@@ -140,3 +140,15 @@ footer {
     flex-wrap: wrap;
     margin-top: 40px;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+    text-shadow: 0 0 8px var(--accent);
+}
+
