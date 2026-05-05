@@ -33,11 +33,6 @@ header h1 {
     margin: 0;
 }
 
-.title-with-gif {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
 
 .header-gif {
     width: 25px;
