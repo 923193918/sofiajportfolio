@@ -111,7 +111,7 @@ footer {
 }
 
 .inspo-box {
-    width: 600px;
+    width: 300px;
     margin: 40px auto;
     padding: 30px;
     background: #ffe0f0;
@@ -131,4 +131,12 @@ footer {
 .inspo-box img:hover {
     box-shadow: 0 0 25px var(--accent);
     transform: scale(1.03);
+}
+
+.inspo-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
 }
