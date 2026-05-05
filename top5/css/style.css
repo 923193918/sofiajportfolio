@@ -164,3 +164,14 @@ footer {
 .gallery-box {
     text-align: center;
 }
+
+.horizontal-item h3 a {
+    color: var(--link);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.horizontal-item h3 a:hover {
+    color: var(--accent);
+    text-shadow: 0 0 8px var(--accent);
+}
