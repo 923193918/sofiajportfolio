@@ -156,3 +156,43 @@ footer {
         align-items: center;
     }
 }
+
+.four-box {
+    width: 95%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffe0f0;
+    border: 3px solid var(--link);
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.four-item {
+    width: 22%;
+    text-align: center;
+}
+
+.four-item img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.four-item img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px var(--accent);
+}
+
+.four-item p {
+    font-family: "Mooli", sans-serif;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
