@@ -169,9 +169,6 @@ footer {
     text-shadow: 0 0 8px var(--accent);
 }
 
-.title-with-gif {
-    flex: 1; /* gives the GIF+title group equal space */
-}
 
 nav {
     flex: 1; /* balances the right side */
