@@ -29,10 +29,15 @@
 
         <h1 class="mooli-regular">Sofia Yumiko Jacobs</h1>
 
-        <nav>
+        <!-- HAMBURGER BUTTON -->
+        <div class="hamburger">
+            ☰
+        </div>
+
+        <nav class="nav-menu">
             <ul>
                 <li><a href="../index.html">home</a></li>
-                <li><a href="inspo.html">inspo</a></li>
+                <li><a href="../inspo/inspo.html">inspo</a></li>
                 <li><a href="../top5/topfive.html">top-five</a></li>
                 <li><a href="../trinkets/trinkets.html">trinkets</a></li>
             </ul>
@@ -40,7 +45,7 @@
 
     </div>
 </header>
-
+   
 <div class="inspo-row">
    <div class="inspo-box">
 <img src="img/tattoo.jpeg" alt="lee ann artwork">
@@ -78,6 +83,12 @@
         <a class="footer-link" href="https://www.instagram.com/sofiayumik0/" target="_blank">@sofiayumik0</a>
     </div>
 </footer>
+
+   <script>
+document.querySelector(".hamburger").addEventListener("click", function() {
+    document.querySelector("nav ul").classList.toggle("show");
+});
+</script>
 
 </body>
 </html>
