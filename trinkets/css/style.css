@@ -218,3 +218,41 @@ footer {
     color: var(--link);
     margin-bottom: 10px;
 }
+
+.reel-container {
+    width: 100%;
+    overflow: hidden;
+    margin: 40px auto;
+    padding: 20px 0;
+    background: #ffe0f0;
+    border: 3px solid var(--link);
+    border-radius: 20px;
+}
+
+.reel-track {
+    display: flex;
+    gap: 40px;
+    animation: scroll 20s linear infinite;
+}
+
+.reel-track img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 0 10px var(--accent);
+    transition: transform 0.3s ease;
+}
+
+.reel-track img:hover {
+    transform: scale(1.1);
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
