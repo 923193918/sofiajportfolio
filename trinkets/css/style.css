@@ -299,7 +299,6 @@ footer {
     100% { transform: scale(1); }
 }
 
-/* Kewpie sparkle wiggle */
 .four-item:nth-child(1) img:hover {
     animation: kewpieWiggle 0.5s ease;
     box-shadow: 0 0 20px var(--accent);
