@@ -13,6 +13,7 @@ The goal of this project was to revise the website that we created for Project 1
 & Overall improvement of the website, compared to Project 1. 
 
 For Step 1 of this project, I filled out the audit to get a general idea of what changes I needed to make for my website to meet all of the requirements, while also improving its readability, accessibility, etc. I created a wire frame, which I will add an image of below. 
+<img width="2760" height="3500" alt="IMG_0697" src="https://github.com/user-attachments/assets/5bfaeb98-4401-4cf3-8b95-4b6d891752f5" />
 
 For Step 2, I began creating the HTML and CSS of my website. I use previous knowledge from class sessions as well as my own research online to see how I could obtain the necessary changes I wanted to make. 
 
