@@ -188,13 +188,18 @@ footer {
 }
 
 .four-item img {
-    width: 180px;        /* same width */
-    height: 180px;       /* same height */
-    object-fit: cover;   /* crops nicely without stretching */
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
     border-radius: 15px;
     display: block;
     margin: 0 auto 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.four-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px var(--accent);
 }
 
 .four-title {
