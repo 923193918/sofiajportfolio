@@ -77,7 +77,7 @@ nav a:hover {
 .inspo-text {
     font-size: 1.1rem;
     line-height: 1.6;
-    text-alight: left;
+    text-align: left;
 }
 
 footer {
@@ -111,6 +111,12 @@ footer {
   font-style: normal;
 }
 
+.inspo-text h2,
+.inspo-text h3 {
+    text-align: center;
+    width: 100%;
+}
+
 .inspo-box {
     width: 300px;
     margin: 40px auto;
@@ -118,7 +124,6 @@ footer {
     background: #ffe0f0;
     border: 3px solid var(--link);
     border-radius: 20px;
-    text-align: center;
 }
 
 .inspo-box img {
